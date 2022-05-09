@@ -3,7 +3,7 @@ package com.javaex.ex02;
 public class Ex01 {
 
 	public static void main(String[] args) {
-		
+		//Thread(스레드)사용
 		Thread thread1 = new DigitThread();
 		Thread thread2 = new LowerThread();
 		Thread thread3 = new UpperThread();

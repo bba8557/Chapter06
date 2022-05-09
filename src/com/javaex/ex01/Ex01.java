@@ -3,7 +3,7 @@ package com.javaex.ex01;
 public class Ex01 {
 
 	public static void main(String[] args) throws InterruptedException {
-		
+		//Thread(스레드)사용
 		//출장가서 준비되는대로 시작해라(숫자찍어라)
 		Thread thread = new DigitThread();
 		//thread.run(); 비교해볼것 - 안됨
